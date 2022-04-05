@@ -1,0 +1,85 @@
+.countContainer{
+    display: block;
+
+}
+.buttonContainer{
+    display: block;
+}
+.button{
+    width:98%;
+    height:50px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-family: "Arial";
+}
+
+button:hover{
+    padding: 4px;
+    background-color: white;
+    color: black;
+}
+
+h2{
+    color: rgb(214, 228, 230);
+    font-size: 24px;
+    font-family: 'Trebuchet MS';
+}
+
+h3{
+    color: rgb(236, 246, 247);
+    font-size: 27px;
+    font-family:'Trebuchet MS';   
+}
+
+.naturaleza{
+    background-image: url(../Assets/naturaleza.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 99%;
+}
+
+.viajes{
+    background-image: url(../Assets/viajes.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 99%;
+}
+
+.deportes{
+    background-image: url(../Assets/deportes.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 99%;
+}
+
+.cultura{
+    background-image: url(../Assets/cultura.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 99%;
+}
+
+.arte{
+    background-image: url(../Assets/arte.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 99%;
+}
+
+@media (min-width: 422px){
+    .countContainer{
+        display: flex;
+        justify-content: space-around;
+    }
+}

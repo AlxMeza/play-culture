@@ -1,0 +1,12 @@
+body{
+    background: linear-gradient(90deg, rgb(27, 143, 158), rgb(62, 216, 152))
+}
+
+audio{
+    width: 20%;
+    height: 20px;
+}
+@media screen and (max-width: 800px) 
+{
+    audio{width: 80%;}    
+}
